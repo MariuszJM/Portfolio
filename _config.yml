@@ -1,7 +1,7 @@
 # Site
-name: "Michna"
+name: "Portfolio"
 title: "Michna"
-description: "Explore, Arrange, Act on Essence."
+description: "A Journey Through My Personal Thoughts, AI Projects, Electronics, and Productivity"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /mediumish-theme-jekyll
@@ -45,7 +45,7 @@ jekyll-archives:
     category: '/category/:name/'
     
 # Pagination 
-paginate: 6
+paginate: 3
 paginate_path: /page:num/
     
 # Other
