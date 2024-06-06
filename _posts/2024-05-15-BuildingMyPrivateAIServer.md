@@ -215,7 +215,7 @@ The ENDORFY Arx 700 ARGB case was my choice for its spacious design, optimal ven
     <td style="border: 1px solid black; padding: 8px; font-weight: bold;">11,195.02</td>
   </tr>
   <tr>
-    <td style="border: 1px solid black; padding: 8px;">Effective Speed (GPU)</td>
+    <td style="border: 1px solid black; padding: 8px;">GPU - Effective Speed (%)</td>
     <td style="border: 1px solid black; padding: 8px;">100</td>
     <td style="border: 1px solid black; padding: 8px;">120</td>
   </tr>
