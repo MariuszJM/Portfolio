@@ -2,7 +2,7 @@
 layout: post
 title: "Setting Up a Private AI System with Ollama and Open WebUI"
 author: sal
-categories: [AI, PC Building, AI Server]
+categories: [AI, AI Server]
 image: assets/images/LocalLLMs.png
 comments: false
 featured: true
@@ -100,7 +100,6 @@ By following these steps, everyone in your household, including those using smar
 Open WebUI offers a range of features and future enhancements that make managing your AI system a breeze:
 
 - **Managing User Permissions and Access Control:** Easily control who can access and use the AI system.
-- **User Management and Load Balancing:** Open WebUI supports user management and load balancing to ensure optimal performance.
 - **Making the AI System Accessible Outside the LAN:** Plans to extend access beyond the local network for remote usability.
 - **Adding Fine-Tuned Models for Specialized Tasks:** Enhance your AI capabilities with models fine-tuned for specific tasks.
 - **Exploring Integration with Other AI Services Using OpenAI Keys:** Seamlessly integrate with other AI services for expanded functionality.
