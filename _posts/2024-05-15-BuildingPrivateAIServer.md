@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Building My Private AI Server"
+title:  "Building Private AI Server"
 author: sal
 categories: [AI, PC Building,  AI Server]
 image: assets/images/ai_server.jpg
