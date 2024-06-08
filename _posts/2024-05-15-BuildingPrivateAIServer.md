@@ -236,6 +236,8 @@ To thoroughly evaluate the performance of my premium setup, I conducted benchmar
 
 Specifically, I tested the premium setup equipped with an RTX 4080 Super and achieved a generation speed of 82 tokens per second for the LLAMA2:7b model. This result is notably impressive, surpassing the performance reported in a  [YouTube](https://www.youtube.com/watch?v=Ugp6wKio1eE) video, where an Intel Core i9-13900K paired with an RTX 4090 achieved a speed of 75 tokens per second. This benchmark demonstrates the exceptional efficiency and capability of my chosen components, reinforcing the value of my configuration choices.
 
+PS: I've noticed that language models (LLMs) with up to 22 billion parameters, when using 4-bit quantization, run incredibly smoothly on my hardware.
+
 ## Conclusion
 
 Building a high-performance AI PC within a budget of 8000 to 12000 PLN required balancing cost and performance. I considered two setups: a budget-friendly option and a premium option, both designed to run large language models (LLMs) like LLAMA3:8b and LLAMA:70b.
