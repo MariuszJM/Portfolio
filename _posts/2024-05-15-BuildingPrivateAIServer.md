@@ -1,19 +1,16 @@
 ---
 layout: post
-title:  "Building Private AI Server"
+title: "Building Private AI Server"
 author: sal
-categories: [AI, PC Building,  AI Server]
+categories: [AI, PC Building, AI Server]
 image: assets/images/ai_server.jpg
 comments: false
 featured: true
-
 ---
+
 Creating a high-performance AI PC within a budget of 8000 to 12000 PLN requires a delicate balance of cost and performance. Therefore to make the process simpler, I decided to consider two setups: one that is budget-friendly yet powerful within the lower range of the budget, and another that pushes the performance limits while staying within the same budget constraints.
 
-
 The goal was clear: to run large language models (LLMs) such as LLAMA3:8b and potentially LLAMA:70b, fine-tune these remarkable AI models, and achieve a high degree of autonomy, enabling the use of this cutting-edge AI technology even without an internet connection.
-
-
 
 ## Component Selection Process
 
@@ -96,7 +93,6 @@ These models were available at the store from which I ordered components.
 
 For the premium setup, I chose the **MSI GeForce RTX 4080 SUPER VENTUS 3X OC 16GB DLSS 3**. The effective speed-to-price ratio for the RTX 4080 SUPER is relatively linear, making it an excellent stopping point for a premium solution. For the budget-friendly setup, I selected the **RTX 4070Ti SUPER**, which offers the best performance in the lower part of the budget range.
 
-
 ### CPU Selection
 
 When it came to choosing a new CPU, my primary focus was on finding the best value for my money. I needed a processor that offered a great balance between performance and cost-effectiveness. This led me to compare two models from AMD's Ryzen 9 series, both of which are known for their impressive capabilities.
@@ -127,7 +123,6 @@ When it came to choosing a new CPU, my primary focus was on finding the best val
     <td style="border: 1px solid black; padding: 8px;">1702.58</td>
   </tr>
 </table>
-
 
 After extensive deliberation (and a bit of emotional turmoil), I was initially drawn to the Ryzen 9 7950X3D due to its exceptional power, even though it comes with higher power consumption and a steeper price tag. On the other hand, the Ryzen 9 7900 stood out as a highly attractive alternative. Its lower power draw and more affordable price made it an ideal choice for a budget-conscious setup, providing a balanced performance without significant compromises.
 
@@ -229,14 +224,13 @@ The ENDORFY Arx 700 ARGB case was my choice for its spacious design, optimal ven
 
 While the budget setup boasts a slightly better speed-to-price ratio, the premium setup excels in overall performance. The premium setup's RTX 4080 SUPER delivers a substantial performance boost for a reasonable price increase, making it the top pick for demanding AI tasks. Though the decision wasn't easy, the phrase "go big or go home" ultimately convinced me to choose the premium option.
 
-
 ## Performance Evaluation of the Chosen Setup
 
 To thoroughly evaluate the performance of my premium setup, I conducted benchmarking using Open Web UI to measure the tokens per second for various AI models.
 
-Specifically, I tested the premium setup equipped with an RTX 4080 Super and achieved a generation speed of 82 tokens per second for the LLAMA2:7b model. This result is notably impressive, surpassing the performance reported in a  [YouTube](https://www.youtube.com/watch?v=Ugp6wKio1eE) video, where an Intel Core i9-13900K paired with an RTX 4090 achieved a speed of 75 tokens per second. This benchmark demonstrates the exceptional efficiency and capability of my chosen components, reinforcing the value of my configuration choices.
+Specifically, I tested the premium setup equipped with an RTX 4080 Super and achieved a generation speed of 82 tokens per second for the LLAMA2:7b model. This result is notably impressive, surpassing the performance reported in a [YouTube](https://www.youtube.com/watch?v=Ugp6wKio1eE) video, where an Intel Core i9-13900K paired with an RTX 4090 achieved a speed of 75 tokens per second. This benchmark demonstrates the exceptional efficiency and capability of my chosen components, reinforcing the value of my configuration choices.
 
-PS: I've noticed that language models (LLMs) with up to 22 billion parameters, when using 4-bit quantization, run incredibly smoothly on my hardware.
+Note: Due to the limitations in VRAM of my graphics card, models with up to 22 billion parameters run incredibly smoothly when using 4-bit quantization. However, for larger models, the performance decreases significantly as the CPU is heavily involved in splitting the inference layer by layer.
 
 ## Conclusion
 
@@ -246,4 +240,4 @@ The GPU was the key component, and I chose the RTX 4080 SUPER for the premium se
 
 Benchmarking showed the premium setup, with an RTX 4080 Super, achieved a generation speed of 82 tokens per second for the LLAMA2:7b model, surpassing a setup featuring an Intel Core i9-13900K and RTX 4090 at 75 tokens per second. This demonstrated the efficiency and capability of my chosen components.
 
-In summary, my AI PC build within the 8000 to 12000 PLN budget successfully balanced cost and performance, resulting in a powerful and efficient setup capable of autonomously running and fine-tuning large language models.
+In summary, if I had known that my premium setup would perform at 82 tokens per second—outpacing the 75 tokens per second seen in the video where the person theoretically had better hardware—I might have opted for the budget setup with RTX 4070Ti SUPER and Ryzen 9 7900 with the same amount of vRAM.
