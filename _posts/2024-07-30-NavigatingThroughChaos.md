@@ -11,11 +11,11 @@ featured: true
 
 
 
-In our rapidly changing and increasingly unstable world, the accelerating pace of digital transformation leads to a constant bombardment of information, making it easy to feel overwhelmed by the sheer volume and speed of these changes. Therefore, it is crucial to develop more effective ways to manage and navigate this information overload.
+In our rapidly changing and increasingly unstable world, the accelerating pace of digital transformation leads to a constant bombardment of information, making it easy to feel overwhelmed by the sheer volume and speed of these changes. Compounding this issue, platforms like YouTube are becoming increasingly addictive, drawing more and more of our attention and time. Therefore, it is crucial to develop more effective ways to manage and navigate this information overload.
 
 > One promising approach is to use Large Language Models (LLMs) to filter and organize a specific domain of internet knowledge in a predictable, easy-to-interpret, and goal-oriented manner, minimizing distractions.
 
-This article explores how Large Language Models (LLMs) can help manage informational overload, presents my thoughts on the subject, and offers a proof of concept (PoC) for automating the exploration of new knowledge domains.
+This article explores how Large Language Models (LLMs) can help manage informational overload, presents my thoughts about human brain limitation, and traps of our unstable reality and offers a proof of concept (PoC) for automating the exploration of new knowledge domains.
 
 
 ## The Bottleneck: Human Brain
@@ -40,7 +40,7 @@ In today's digital age, platforms have become increasingly addictive, with many 
 
 The ease of content generation has also exploded, leading to an overwhelming amount of information available online. As technology rapidly evolves, the rate of content production accelerates. We are caught in a positive feedback loop where each technological breakthrough speeds up the next, contributing to an ever-growing sea of information. While this might seem beneficial at first glance, providing a wealth of knowledge at our fingertips, it also presents a significant challenge.
 
-The sheer volume of choices available to us can be paralyzing rather than empowering. With countless options to choose from, we can easily exceed our capacity to process information, leading to feelings of being overwhelmed. This phenomenon is compounded by the dynamic nature of our world, where constant technological advancements and societal changes make it increasingly difficult to keep up.
+The sheer volume of choices available to us can be paralyzing rather than empowering. With countless options to choose from, we can easily exceed our capacity to process information, leading to feelings of being overwhelmed as I mentionsed in the previous chapter. This phenomenon is compounded by the dynamic nature of our world, where constant technological advancements and societal changes make it increasingly difficult to keep up.
 
  The key to addressing these challenges lies in developing strategies to filter, organize, and prioritize information effectively, ensuring that we can focus on what truly matters without getting lost in the noise.
 
@@ -48,17 +48,29 @@ The sheer volume of choices available to us can be paralyzing rather than empowe
 
 ## PoC Workflow Explanation
 
-Managing the deluge of information in today’s digital age can be overwhelming. Drawing from my personal experience, I have developed a manual process to handle this chaos. It wos warking quite well but ti requires a lot of will power to stik to it and a lot of my cognitive recourses. So I now aim to automate it by using Large Language Models (LLMs). This chapter explains the workflow designed to efficiently retrieve, process, and rank information, ensuring that only the most relevant resources are highlighted. 
+Drawing from my personal experience, I have developed a manual process to handle this chaos. It was warking quite well but ti requires a lot of will power to stik to it and resist temtations for clickbats and a lot of my cognitive recourses. So I now aim to automate it by using Large Language Models (LLMs). This chapter explains the workflow designed to efficiently retrieve, process, and rank information, ensuring that only the most relevant resources are highlighted. 
+
+
+The idea was to limit the options available for a user because that generates chaos so here the user needs to set up only the moset important parameters 
+The idea is to take as much advantage from a new undiscovered area of knowledge which is essential chaos and pottential and fourse llm to organize it. So adventage from exploration chaos and in an organized way  
+
+
 
 User input 
-Search phrases are specific keywords or terms used to query various platforms for pertinent resources. These phrases are carefully selected to ensure that the content retrieved is relevant to the user's areas of interest. The search phrases guide the initial step of gathering information from multiple sources.
 
-Specific questions are detailed inquiries that the workflow aims to answer using the retrieved resources. They serve as a guide for summarization and ensure that the output directly addresses the user's needs. These questions help to filter and focus the information, ensuring that only relevant data is processed and summarized.
+Search phrases
 
-Platforms refer to the sources from which the workflow retrieves information. These could include video platforms, websites, academic databases, or any other repositories of digital content. Specifying platforms helps to streamline the search process and ensures that the resources come from credible and relevant sources. which are implemented.
+The search phrases guide the initial step of gathering information from multiple sources.
 
-Time Horizon
-The time horizon defines the period within which the resources should be considered. It limits the search to recent information, ensuring that the data retrieved is up-to-date and relevant. This parameter helps to filter out outdated content and focus on the most current insights and guidelines.
+Specific questions
+- Odnoszą się do zawartości źródła
+- Nadają cel i wymagania co do źródeł
+
+
+Uesr can also specify the Platforms to search, so far it is Youtube, google and github available easy to add the new platforms implementaitons.
+
+
+User can also declare how old recourses look setting up a Time Horizon parameter. This parameter helps to filter out outdated content and focus on the most current insights and guidelines.
 
 Max Outputs per Platform
 This parameter specifies the maximum number of resources to retrieve from each platform. It helps manage the volume of data and ensures that the workflow does not become overwhelmed with too much information. By setting a limit, the system can focus on the most relevant and high-quality resources available.
@@ -98,24 +110,37 @@ The remaining resources are ranked based on the number of questions they answer.
 Finally, the top-ranking resources are separated from the rest. These top resources are the most valuable as they provide the most answers and relevant information. This final step ensures that the user receives the best possible insights without having to sift through all retrieved data.
 
 
-Output
+Finnaly the ouput which we can see is in a chierarchal form  (the best based on the ):
+
+
+
+Additionally if we want we 
 
 top rescoursec hierarchal information
 
 also I can look also at the rest without contetn sourses 
 
-
-### Example Run
-
-<div style="text-align: center;">
-  <img src="{{ site.baseurl }}/assets/images/RunDemonstration.gif" alt="Run Demonstration" />
-</div>
+Code source on my github: https://github.com/MariuszJM/Web-Chaos-To-Order
 
 
-## Why Not Just Use Products Like ChatGPT?
+## Why Not Just Use Products Like ChatGPT? 
 
 By adopting this approach, I can achieve more predictable, stable, and reliable outputs. This is because I understand how the system filters information, rather than working with a complex black box. Additionally, this method enhances my understanding of the workflow, as each Language Learning Model (LLM) performs small, easily interpretable tasks.
 
+
+## **The Need for Learning Despite AI Capabilities**
+
+In the age of advanced AI, it might seem tempting to offload all our information-processing tasks to powerful tools like Large Language Models (LLMs). However, having a solid foundational knowledge remains crucial for several reasons. Understanding the information we work with, is essential not only for personal growth but also for effectively leveraging AI capabilities.
+A solid knowledge base empowers us to think critically and make informed decisions.
+
+Especially useful seems to be looking for a core knowledge like mathematics, physics and 
+
+, particularly core knowledge
+
+- Discuss why having a knowledge background is crucial, even with powerful AI tools.
+- Draw parallels to foundational knowledge in subjects like mathematics.
+- Explain the importance of understanding the information you work with, especially core knowledge.
+Add some information that even if you have AI which is extrimlly powerfull and can receive huge input and return hube output you need your own cognitive power to interpret the results
 
 
 ## Conclusions
