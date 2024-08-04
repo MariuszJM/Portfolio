@@ -26,25 +26,27 @@ Firstly, it is essential to set clear goals for your learning journey. Determine
 
 Once you have identified a valuable knowledge domain, it is important to approach learning hierarchically. Organizing information hierarchically reduces the demands on our short-term memory while allowing us to see the context of each piece of information. Moreover, our brains naturally organize and structure information this way, remembering details from general to specific [5].
 
-Next, consider how to spread out the learning process effectively. The U-curve of dopamine indicates that motivation tends to be highest at the beginning and end of a project. To leverage this, start a project that you can complete within a timeframe that sustains initial excitement and brings you to the point where you can see the end. This concept is reflected in Agile methodologies such as Scrum, which emphasizes short development cycles called sprints, typically lasting 1-4 weeks [6], and productivity books like the THE 12 WEEK YEAR [7], where a quarter is condensed into three weeks. For me, this optimal period is around three weeks. Then to help transfer new knowledge to long-term memory, reinforce acquired knowledge through spaced repetition [8]. This technique, involves consistently using the knowledge over several weeks or months. Generally, the longer the duration, the higher the chance of transferring it to long-term memory. I typically use a 6-week period. Review the material at exponentially increasing intervals, such as after 1 day, 3 days, 9 days, 27 days, and so on. This approach allows for partial forgetting, making each review session more challenging and thus supporting memorization without requiring excessive time for revisions.
+Next, consider how to spread out the learning process effectively. The U-curve of dopamine indicates that motivation tends to be highest at the beginning and end of a project. To leverage this, start a project that you can complete within a timeframe that sustains initial excitement and brings you to the point where you can see the end. This concept is reflected in Agile methodologies such as Scrum [6], which emphasizes short development cycles called sprints, typically lasting 1-4 weeks, and productivity books like The 12 Week Year [7], where a quarter is condensed into three weeks. For me, this optimal period is around three weeks. Then to help transfer new knowledge to long-term memory, reinforce acquired knowledge through spaced repetition [8]. This technique, involves consistently using the knowledge over several weeks or months. Generally, the longer the duration, the higher the chance of transferring it to long-term memory. I typically use a 6-week period. Review the material at exponentially increasing intervals, such as after 1 day, 3 days, 9 days, 27 days, and so on. This approach allows for partial forgetting, making each review session more challenging and thus supporting memorization without requiring excessive time for revisions.
 
 Therefore, the ideal learning strategy would be to quickly define a meaningful learning objective, explore it hierarchically over approximately three weeks, and revise it multiple times using spaced repetition techniques.
 
-## Challenges of the Dynamic Digital Age
+## Overwhelmed in the Digital World: Identifying Key Sources
 
-In today's digital age, platforms have become increasingly addictive, often designed to keep users engaged for as long as possible. They use eye-catching images and clickbait headlines to entice users into spending more time on their sites. This can result in users, myself included, losing hours to interesting but ultimately useless content. Not only does this waste time, but it also overwhelms us with unnecessary data. Resisting these temptations requires significant willpower, and with advancing algorithms, these platforms are likely to become even more addictive in the future.
+In today's digital age, several factors contribute to the sense of information overload.
 
-The next challenche is .The ease of content generation has also exploded, leading to an overwhelming amount of information available online. As technology rapidly evolves, the rate of content production accelerates. We are caught in a positive feedback loop where each technological breakthrough speeds up the next, contributing to an ever-growing sea of information. While this might seem beneficial at first glance, providing a wealth of knowledge at our fingertips, it also presents a significant challenge.
+One major factor is the increasingly addictive nature of informational platforms like Youtube, which are designed to keep users engaged providing videos with eye-catching images and clickbait headlines. This can result in users, myself included, losing hours to interesting but ultimately useless content. Not only does this waste time, but it also overloads us with unnecessary data.
 
-The sheer volume of choices available to us can be paralyzing rather than empowering. With countless options to choose from, we can easily exceed our capacity to process information, leading to feelings of being overwhelmed as I mentionsed in the previous chapter. This phenomenon is compounded by the dynamic nature of our world, where constant technological advancements and societal changes make it increasingly difficult to keep up.
+Moreover, the rapid advancement of technology creates a positive feedback loop, where each breakthrough accelerates further innovation and content production. This exponential growth means that within the same period of time, we encounter increasingly more new technologies and tools to learn, which can easily surpass our cognitive capacities.
 
- The key to addressing these challenges lies in developing strategies to filter, organize, and prioritize information effectively, ensuring that we can focus on what truly matters without getting lost in the noise.
+Additionally, the ease of content generation, especially with AI tools, has led to an overwhelming amount of information available online. As technology develops, this phenomenon accelerates further, and the volume of choices available to us can be paralyzing rather than empowering.
 
+Therefore, the key to addressing these challenges lies in developing strategies to filter, organize, and prioritize information effectively, ensuring that we can focus on what truly matters without getting lost in the increasing noise.
 
 
 ## Automating Web Information Management with LLMs
 
 Drawing from my personal experience, I have developed a manual process to handle this chaos. It was warking quite well but ti requires a lot of will power to stik to it and resist temtations for clickbats and a lot of my cognitive recourses. So I now aim to automate it by using Large Language Models (LLMs). This chapter explains the workflow designed to efficiently retrieve, process, and rank information, ensuring that only the most relevant resources are highlighted. 
+
 
 
 The idea was to limit the options available for a user because that generates chaos so here the user needs to set up only the moset important parameters 
@@ -149,5 +151,5 @@ Leveraging LLMs helps individuals navigate the information overload, aligning wi
 4. Choice Overload: A Conceptual Review and Meta-Analysis
 5. Contextual Feature Extraction Hierarchies Converge in Large Language Models and the Brain.
 6. Scrum.org 
-7. THE 12 WEEK YEAR by B. Moran and M. Lennington
+7. The 12 Week Year by B. Moran and M. Lennington
 8. Forgetting curve https://www.eng.auburn.edu/current-students/documents/forgetting-curve.pdf
