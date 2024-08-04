@@ -124,21 +124,6 @@ Code source on my github: [Web Chaos to Order](https://github.com/MariuszJM/Web-
 By using the above approach, I can achieve more predictable, stable, and reliable results. This is because I understand how the system filters and organizes information, rather than relying on a complex black box. Additionally, this method improves my understanding of the workflow, as each LLM performs small, easily interpretable tasks.
 
 
-## The Need for Learning Despite AI Capabilities
-
-In the age of advanced AI, it might seem tempting to offload all our information-processing tasks to powerful tools like Large Language Models (LLMs). However, having a solid foundational knowledge remains crucial for several reasons. Understanding the information we work with, is essential not only for personal growth but also for effectively leveraging AI capabilities.
-A solid knowledge base empowers us to think critically and make informed decisions.
-
-Especially useful seems to be looking for a core knowledge like mathematics, physics and 
-
-, particularly core knowledge
-
-- Discuss why having a knowledge background is crucial, even with powerful AI tools.
-- Draw parallels to foundational knowledge in subjects like mathematics.
-- Explain the importance of understanding the information you work with, especially core knowledge.
-Add some information that even if you have AI which is extrimlly powerfull and can receive huge input and return hube output you need your own cognitive power to interpret the results
-
-
 ## Conclusions
 
 In the digital age, information overload is a significant challenge. This exploration highlights how Large Language Models (LLMs) can help manage this by filtering and organizing knowledge efficiently.
