@@ -142,18 +142,6 @@ The PoC shows LLMs can automate information management, ensuring relevant, high-
 
 Leveraging LLMs helps individuals navigate the information overload, aligning with cognitive abilities and providing a scalable, efficient solution to the challenges of the digital age.
 
-
-
-
-1. Cognitive and neuroscientific perspectives of healthy ageing : https://www.sciencedirect.com/science/article/pii/S0149763424001180
-2. Sheldon, K. M., & Elliot, A. J. (1999). Goal striving, need satisfaction, and longitudinal well-being: The self-concordance model. Journal of Personality and Social Psychology, 76(3), 482-497.
-3. Deci, E. L., & Ryan, R. M. (2000). The "what" and "why" of goal pursuits: Human needs and the self-determination of behavior. Psychological Inquiry, 11(4), 227-268.
-4. Choice Overload: A Conceptual Review and Meta-Analysis
-5. Contextual Feature Extraction Hierarchies Converge in Large Language Models and the Brain.
-6. Scrum.org 
-7. The 12 Week Year by B. Moran and M. Lennington
-8. Forgetting curve https://www.eng.auburn.edu/current-students/documents/forgetting-curve.pdf
-
 ## References
 1. Cognitive and neuroscientific perspectives of healthy ageing. Retrieved from https://www.sciencedirect.com/science/article/pii/S0149763424001180.
 2. Sheldon, K. M., & Elliot, A. J. (1999). Goal striving, need satisfaction, and longitudinal well-being: The self-concordance model. *Journal of Personality and Social Psychology, 76*(3), 482-497.
