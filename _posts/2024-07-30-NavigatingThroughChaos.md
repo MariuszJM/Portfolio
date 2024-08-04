@@ -8,27 +8,27 @@ comments: false
 featured: true
 ---
 
-In our rapidly changing and increasingly unstable world, the accelerating pace of digital transformation leads to a constant bombardment of information, making it easy to feel overwhelmed by the sheer volume and speed of these changes. Compounding this issue, platforms like YouTube are becoming increasingly addictive, drawing more and more of our attention and time. Therefore, it is crucial to develop more effective ways to manage and navigate this information overload.
+In our rapidly changing and increasingly unstable world, the accelerating pace of digital transformation leads to a constant bombardment of information. This deluge of data makes it easy to feel overwhelmed by the sheer volume and speed of these changes. In addition to that, platforms like YouTube, designed to capture and hold our attention, provide an endless stream of engaging content, consuming more of our time and focus. The addictive nature of these platforms makes it harder to resist temptations, further exacerbating the problem. This highlights the urgent need to develop more effective ways to manage and navigate information overload.
 
 > One promising approach is to use Large Language Models (LLMs) to filter and organize a specific domain of internet knowledge in a predictable, easy-to-interpret, and goal-oriented manner, minimizing distractions.
 
-This article explores how Large Language Models (LLMs) can help manage informational overload, presents my thoughts about human brain limitation, and traps of our unstable reality and offers a proof of concept (PoC) for automating the exploration of new knowledge domains.
+This article explores how LLMs can help manage informational overload, presents insights into human brain limitations and the traps of our unstable reality, and offers a proof of concept (PoC) for automating the exploration of new knowledge domains.
 
 ## The Bottleneck: Human Brain
 
-Despite individual variations in intelligence, all human brains share inherent constraints that limit how quickly and efficiently we process information. These constraints include the limited capacity of short-term memory, which restricts the amount of information we can handle simultaneously, and the speed at which we can assimilate new information and transfer it to long-term memory. IQ essentially reflects these cognitive abilities. Based on current literature [reference], it is possible to prevent cognitive decline with age rather than increase IQ. Therefore, the true challenge lies in how we make the best use of the powerful machine inside our skull.
+Despite individual variations in intelligence, all human brains share inherent constraints that limit how quickly and efficiently we process information. These constraints include the limited capacity of short-term memory and the speed at which we can assimilate new information and transfer it to long-term memory. IQ essentially reflects these cognitive abilities. Current literature suggests it is possible to prevent cognitive decline with age rather than increase IQ [1]. Therefore, the true challenge lies in how we make the best use of the powerful machine inside our skull.
 
-To achieve this, it is crucial to filter and structure information in a way that matches our cognitive abilities at any given moment makes learning easier and more efficient. 
+To achieve this, it is crucial to filter and structure information in a way that matches our cognitive abilities at any given moment, making learning easier and more efficient.
 
-To discuss further the constraints of the human brain, let's explore an ideal scenario for learning a new domain of knowledge.
+To discuss further constraints of the human brain, let's explore an ideal scenario for learning a new domain of knowledge.
 
-Firstly, it is essential to set clear goals for your learning journey. Determine what you want to learn next. From a motivational perspective, choosing a domain that is personally significant will generate more positive emotions during the learning process compared to less significant. However, the vast array of available options can be overwhelming due to our cognitive limitations. While we can comfortably handle several options, presenting ourselves with 100 choices can be paralyzing. That’s why a tool for simplifying the decision-making process would be useful.
+Firstly, it is essential to set clear goals for your learning journey. Determine what you want to learn next. Choosing a domain that is personally significant will generate more positive emotions during the learning process[2, 3]. However, the vast array of available options can be overwhelming due to our cognitive limitations. While we can handle several options comfortably, presenting ourselves with 100 choices can be paralyzing [4]. A tool for simplifying the decision-making process would be useful.
 
-Once you have identified a valuable knowledge domain, it is important to approach learning hierarchically. Organizing information hierarchically reduces the demands on our short-term memory while allowing us to see the context of each piece of information. Moreover, our brains naturally organize and structure information in this manner, remembering details from general to specific [reference].
+Once you have identified a valuable knowledge domain, it is important to approach learning hierarchically. Organizing information hierarchically reduces the demands on our short-term memory while allowing us to see the context of each piece of information. Moreover, our brains naturally organize and structure information this way, remembering details from general to specific [5].
 
-Next, consider how to spread out the learning process effectively. The first important concept is the U-curve of dopamine, which indicates that motivation tends to be highest at the beginning and end of a learning project. To leverage this, start a project that you can complete within a timeframe that sustains your initial excitement and allows you to maintain momentum as you approach the finish. For me, this optimal period is around three weeks (PS 3 week based on a sprints from Agile (1-4 week sprints) and 12 week year book - 3 week quarter). The second crucial element is reinforcing the acquired knowledge through spaced repetition. This method helps transfer information to long-term memory. The idea is to use the knowledge consistently over at least six weeks, reviewing it at exponentially increasing intervals, for example, after 1 day, 3 days, 9 days, and 27 days. This approach allows for partial forgetting, which makes each review session more challenging, thus supporting memorization and at the same time not requiring excessive time for revisions.
+Next, consider how to spread out the learning process effectively. The U-curve of dopamine indicates that motivation tends to be highest at the beginning and end of a project. To leverage this, start a project that you can complete within a timeframe that sustains initial excitement and brings you to the point where you can see the end. This concept is reflected in Agile methodologies such as Scrum, which emphasizes short development cycles called sprints, typically lasting 1-4 weeks [6], and productivity books like the THE 12 WEEK YEAR [7], where a quarter is condensed into three weeks. For me, this optimal period is around three weeks. Then to help transfer new knowledge to long-term memory, reinforce acquired knowledge through spaced repetition [8]. This technique, involves consistently using the knowledge over several weeks or months. Generally, the longer the duration, the higher the chance of transferring it to long-term memory. I typically use a 6-week period. Review the material at exponentially increasing intervals, such as after 1 day, 3 days, 9 days, 27 days, and so on. This approach allows for partial forgetting, making each review session more challenging and thus supporting memorization without requiring excessive time for revisions.
 
-So, the ideal learning frame for me based on those constrains would be to quickly define what to learn next, which with reasonable probability is at least one of the best choices to make, explore it hierarchically from general to specific within 3 weeks, and revise several times to at least use this knowledge within 6 weeks.
+Therefore, the ideal learning strategy would be to quickly define a meaningful learning objective, explore it hierarchically over approximately three weeks, and revise it multiple times using spaced repetition techniques.
 
 ## Challenges of the Dynamic Digital Age
 
@@ -154,3 +154,15 @@ Automating information management with LLMs reduces cognitive burden and improve
 The PoC shows LLMs can automate information management, ensuring relevant, high-quality resources. This structured approach offers stable and reliable outputs, enhancing decision-making and learning processes.
 
 Leveraging LLMs helps individuals navigate the information overload, aligning with cognitive abilities and providing a scalable, efficient solution to the challenges of the digital age.
+
+
+
+## References
+1. Cognitive and neuroscientific perspectives of healthy ageing : https://www.sciencedirect.com/science/article/pii/S0149763424001180
+2. Sheldon, K. M., & Elliot, A. J. (1999). Goal striving, need satisfaction, and longitudinal well-being: The self-concordance model. Journal of Personality and Social Psychology, 76(3), 482-497.
+3. Deci, E. L., & Ryan, R. M. (2000). The "what" and "why" of goal pursuits: Human needs and the self-determination of behavior. Psychological Inquiry, 11(4), 227-268.
+4. Choice Overload: A Conceptual Review and Meta-Analysis
+5. Contextual Feature Extraction Hierarchies Converge in Large Language Models and the Brain.
+6. Scrum.org 
+7. THE 12 WEEK YEAR by B. Moran and M. Lennington
+8. Forgetting curve https://www.eng.auburn.edu/current-students/documents/forgetting-curve.pdf
