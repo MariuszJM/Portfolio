@@ -121,7 +121,7 @@ also I can look also at the rest without contetn sourses
 Code source on my github: [Web Chaos to Order](https://github.com/MariuszJM/Web-Chaos-To-Order)
 
 
-## Why Not Just Use Products Like ChatGPT? 
+### Why Not Just Use Products Like ChatGPT? 
 
 By using the above approach, I can achieve more predictable, stable, and reliable results. This is because I understand how the system filters and organizes information, rather than relying on a complex black box. Additionally, this method improves my understanding of the workflow, as each LLM performs small, easily interpretable tasks.
 
@@ -143,11 +143,18 @@ The PoC shows LLMs can automate information management, ensuring relevant, high-
 Leveraging LLMs helps individuals navigate the information overload, aligning with cognitive abilities and providing a scalable, efficient solution to the challenges of the digital age.
 
 ## References
-1. Cognitive and neuroscientific perspectives of healthy ageing. Retrieved from https://www.sciencedirect.com/science/article/pii/S0149763424001180.
-2. Sheldon, K. M., & Elliot, A. J. (1999). Goal striving, need satisfaction, and longitudinal well-being: The self-concordance model. *Journal of Personality and Social Psychology, 76*(3), 482-497.
-3. Deci, E. L., & Ryan, R. M. (2000). The "what" and "why" of goal pursuits: Human needs and the self-determination of behavior. *Psychological Inquiry, 11*(4), 227-268.
-4. Choice Overload: A Conceptual Review and Meta-Analysis.
-5. Contextual Feature Extraction Hierarchies Converge in Large Language Models and the Brain.
-6. Scrum.org. Retrieved from https://www.scrum.org/.
-7. Moran, B., & Lennington, M. (2013). *The 12 Week Year*. Wiley.
-8. Forgetting curve. Retrieved from https://www.eng.auburn.edu/current-students/documents/forgetting-curve.pdf.
+1. Cognitive and neuroscientific perspectives of healthy ageing, Reuter-Lorenz, P. A., & Park, D. C. (2014). *Neuropsychology Review, 24*(3), 355-370. doi:10.1007/s11065-014-9270-9
+    
+2. Goal Striving, Need Satisfaction, and Longitudinal Well-Being: The Self-Concordance Model, Sheldon, K. M., & Elliot, A. J. (1999). *Journal of Personality and Social Psychology, 76*(3), 482-497.
+    
+3. The "What" and "Why" of Goal Pursuits: Human Needs and the Self-Determination of Behavior, Deci, E. L., & Ryan, R. M. (2000). *Psychological Inquiry, 11*(4), 227-268.
+    
+4. Choice Overload: A Conceptual Review and Meta-Analysis, Chernev, A., Bockenholt, U., & Goodman, J. (2015). *Journal of Consumer Psychology, 25*(2), 333-358. doi:10.1016/j.jcps.2014.08.002
+    
+5. Contextual Feature Extraction Hierarchies Converge in Large Language Models and the Brain, Schrimpf, M., Blank, I., Tuckute, G., Kauf, C., Hosseini, E. A., Kanwisher, N., Tenenbaum, J., & Fedorenko, E. (2021). *Proceedings of the National Academy of Sciences, 118*(45), e2021256118. doi:10.1073/pnas.2021256118
+    
+6. The Scrum Guide, Schwaber, K., & Sutherland, J. (2020). Scrum.org. Retrieved from https://www.scrum.org/resources/scrum-guide
+    
+7. The 12 Week Year: Get More Done in 12 Weeks than Others Do in 12 Months, Moran, B., & Lennington, M. (2013). Wiley.
+    
+8. Forgetting curve, Ebbinghaus, H. Teachers College, Columbia University. Retrieved from https://www.eng.auburn.edu/current-students/documents/forgetting-curve.pdf
