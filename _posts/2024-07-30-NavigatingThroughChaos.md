@@ -8,21 +8,19 @@ comments: false
 featured: true
 ---
 
-In our rapidly changing and increasingly unstable world, the accelerating pace of digital transformation leads to a constant bombardment of information. This deluge of data makes it easy to feel overwhelmed by the sheer volume and speed of these changes. In addition to that, platforms like YouTube, designed to capture and hold our attention, provide an endless stream of engaging content, consuming more of our time and focus. The addictive nature of these platforms makes it harder to resist temptations, further exacerbating the problem. This highlights the urgent need to develop more effective ways to manage and navigate information overload.
+In our rapidly changing world, the accelerating pace of digital transformation leads to a constant bombardment of information. This deluge of data makes it easy to feel overwhelmed by the sheer volume and speed of these changes. In addition to that, platforms like YouTube captivate our attention with endless engaging content, consuming more of our time. Their addictive nature intensifies the challenge, highlighting the urgent need for effective strategies to manage information overload.
 
 > One promising approach is to use Large Language Models (LLMs) to filter and organize a specific domain of internet knowledge in a predictable, easy-to-interpret, and goal-oriented manner, minimizing distractions.
 
-This article explores how LLMs can help manage informational overload, presents insights into human brain limitations and the traps of our unstable reality, and offers a proof of concept (PoC) for automating the exploration of new knowledge domains.
+This article explores how LLMs can help manage informational overload, presents insights into human brain limitations, the traps of our unstable reality, and offers a proof of concept (PoC) for automating the exploration of new knowledge domains.
 
 ## The Bottleneck: Human Brain
 
-Despite individual variations in intelligence, all human brains share inherent constraints that limit how quickly and efficiently we process information. These constraints include the limited capacity of short-term memory and the speed at which we can assimilate new information and transfer it to long-term memory. IQ essentially reflects these cognitive abilities. Current literature suggests it is possible to prevent cognitive decline with age rather than increase IQ [1]. Therefore, the true challenge lies in how we make the best use of the powerful machine inside our skull.
-
-To achieve this, it is crucial to filter and structure information in a way that matches our cognitive abilities at any given moment, making learning easier and more efficient.
+Despite individual variations in intelligence, all human brains share inherent constraints that limit how quickly and efficiently we process information. These constraints include the limited capacity of short-term memory and the speed at which we can assimilate new information and transfer it to long-term memory. IQ essentially reflects these cognitive abilities. Current literature suggests it is possible to prevent cognitive decline with age rather than increase IQ [1]. Therefore, the true challenge lies in how we make the best use of the powerful machine inside our skull. To achieve this, it is crucial to filter and structure information in a way that matches our cognitive abilities at any given moment, making learning easier and more efficient.
 
 To discuss further constraints of the human brain, let's explore an ideal scenario for learning a new domain of knowledge.
 
-Firstly, it is essential to set clear goals for your learning journey. Determine what you want to learn next. Choosing a domain that is personally significant will generate more positive emotions during the learning process[2, 3]. However, the vast array of available options can be overwhelming due to our cognitive limitations. While we can handle several options comfortably, presenting ourselves with 100 choices can be paralyzing [4]. A tool for simplifying the decision-making process would be useful.
+Firstly, it is essential to set clear goals for your learning journey. Determine what you want to learn next. Choosing a domain that is personally significant will generate more positive emotions during the learning process[2, 3]. However, the vast array of available options can be overwhelming due to our cognitive limitations. While we can handle several options comfortably, presenting ourselves with 100 choices can be paralyzing [4]. Therefore, a tool for simplifying the decision-making process would be useful.
 
 Once you have identified a valuable knowledge domain, it is important to approach learning hierarchically. Organizing information hierarchically reduces the demands on our short-term memory while allowing us to see the context of each piece of information. Moreover, our brains naturally organize and structure information this way, remembering details from general to specific [5].
 
@@ -30,15 +28,15 @@ Next, consider how to spread out the learning process effectively. The U-curve o
 
 Therefore, the ideal learning strategy would be to quickly define a meaningful learning objective, explore it hierarchically over approximately three weeks, and revise it multiple times using spaced repetition techniques.
 
-## Overwhelmed in the Digital World: Identifying Key Sources
+## Essential Traps in Our Digital World
 
 In today's digital age, several factors contribute to the sense of information overload.
 
 One major factor is the increasingly addictive nature of informational platforms like Youtube, which are designed to keep users engaged providing videos with eye-catching images and clickbait headlines. This can result in users, myself included, losing hours to interesting but ultimately useless content. Not only does this waste time, but it also overloads us with unnecessary data.
 
-Moreover, the rapid advancement of technology creates a positive feedback loop, where each breakthrough accelerates further innovation and content production. This exponential growth means that within the same period of time, we encounter increasingly more new technologies and tools to learn, which can easily surpass our cognitive capacities.
+Moreover, the rapid advancement of technology creates a positive feedback loop, where each breakthrough accelerates further innovation. This exponential growth means that within the same period of time, we encounter increasingly more new technologies and tools to learn, which can easily surpass our cognitive capacities.
 
-Additionally, the ease of content generation, especially with AI tools, has led to an overwhelming amount of information available online. As technology develops, this phenomenon accelerates further, and the volume of choices available to us can be paralyzing rather than empowering.
+Additionally, the simplicity of content creation, particularly with AI tools, has significantly increased the amount of information available online. As technology develops, this phenomenon accelerates further, and the volume of choices available to us can be paralyzing rather than empowering.
 
 Therefore, the key to addressing these challenges lies in developing strategies to filter, organize, and prioritize information effectively, ensuring that we can focus on what truly matters without getting lost in the increasing noise.
 
@@ -123,7 +121,11 @@ Code source on my github: [Web Chaos to Order](https://github.com/MariuszJM/Web-
 
 ### Why Not Just Use Products Like ChatGPT? 
 
-By using the above approach, I can achieve more predictable, stable, and reliable results. This is because I understand how the system filters and organizes information, rather than relying on a complex black box. Additionally, this method improves my understanding of the workflow, as each LLM performs small, easily interpretable tasks.
+By using the above approach, I can achieve more predictable, stable, and reliable results. This is because I understand how the system filters and organizes information, rather than relying on a complex black box. 
+
+- Simultenisly search wide domain of knowledge in a chierarchal manner  where I can quicly see the contekst of the information. 
+
+- easy to interpret workflow, as each LLM performs small task.
 
 
 ## Conclusions
