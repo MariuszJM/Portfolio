@@ -47,42 +47,38 @@ Learning something new involves venturing into the unknown, essentially navigati
 
 ### User Input Parameters
 
-The idea behind this workflow is to limit the options available to the user, as an excess of choices can generate chaos. Here, the user needs to set up only the most important parameters, taking full advantage of the new, undiscovered area of knowledge—which is essential chaos—and forcing the LLM to organize it. 
+The goal of this workflow is to simplify the decision-making process for the user by limiting the available options, as an excess of choices can generate chaos. Therefore, the user only needs to set the most important parameters. Below is a list of key parameters that need to be configured for a search:
 
-The idea was to limit the options available for a user because that generates chaos so here the user needs to set up only the moset important parameters
+**Search Phrases**
 
+These are the queries that users typically write in Google or YouTube. This is a crucial parameter. To streamline the parameters, each phrase retrieves up to 10 resources. Users can broaden their exploration by defining multiple similar phrases in one run, each approaching the problem from slightly different angles.
 
- 
-The idea is to take as much advantage from a new undiscovered area of knowledge which is essential chaos and pottential and fourse llm to organize it. So adventage from exploration chaos and in an organized way  
+**Specific Questions**
 
+These questions directly relate to the content of each source. They provide objectives and criteria for evaluating the sources. Sources that answer fewer questions will rank lower.
 
-Search phrases
+**Platforms**
 
-The search phrases guide the initial step of gathering information from multiple sources.
+Users can specify the platforms to search. Currently, YouTube, Google, and GitHub are available. This allows for searching multiple platforms within one run.
 
-Specific questions
-- Odnoszą się do zawartości źródła
-- Nadają cel i wymagania co do źródeł
+**Time Horizon**
 
+Users can set a Time Horizon parameter to declare how old the resources can be. This helps to filter out outdated content and focus on the most current insights and guidelines.
 
-Uesr can also specify the Platforms to search, so far it is Youtube, google and github available easy to add the new platforms implementaitons.
+**Max Outputs per Platform**
 
-
-User can also declare how old recourses look setting up a Time Horizon parameter. This parameter helps to filter out outdated content and focus on the most current insights and guidelines.
-
-Max Outputs per Platform
-This parameter specifies the maximum number of resources to retrieve from each platform. It helps manage the volume of data and ensures that the workflow does not become overwhelmed with too much information. By setting a limit, the system can focus on the most relevant and high-quality resources available.
-
-
+To manage the volume of data, users can set a maximum number of resources to retrieve from each platform. This helps in focusing on the most relevant resources without being overwhelmed by too much information. Typically, this is set between 3 to 9
 
 ### Workflow Breakdown
 
-Below is a detailed breakdown of the process visualized in the provided flowchart.
+Below is a detailed breakdown of the process visualized in the provided flowchart for one platform.
 
 
 <div style="text-align: center;">
   <img src="{{ site.baseurl }}/assets/images/Data_flow.svg" alt="Data Flow" />
 </div>
+
+
 
 
 1. Retrieve Resources with Details for Each Query
