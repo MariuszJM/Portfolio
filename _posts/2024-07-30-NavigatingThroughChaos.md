@@ -45,26 +45,16 @@ Therefore, the key to addressing these challenges lies in developing strategies 
 
 Learning something new involves venturing into the unknown, essentially navigating chaos. The goal is to make this process stable and predictable, leveraging the benefits of both chaos and order. From my personal experience, I developed a step-by-step manual process to manage this challenge. While effective, it required considerable willpower to maintain focus and resist platforms-served temptations. Additionally, it consumes a significant portion of my cognitive resources. Therefore, now I aim to automate this process using LLMs. This chapter outlines a workflow designed to efficiently retrieve, filter, rank, and organize information from a wide range of knowledge domains simultaneously.
 
+### User Input Parameters
 
 The idea behind this workflow is to limit the options available to the user, as an excess of choices can generate chaos. Here, the user needs to set up only the most important parameters, taking full advantage of the new, undiscovered area of knowledge—which is essential chaos—and forcing the LLM to organize it. 
 
-
-
-
-
-
-Code source on my github: 
+The idea was to limit the options available for a user because that generates chaos so here the user needs to set up only the moset important parameters
 
 
  
 The idea is to take as much advantage from a new undiscovered area of knowledge which is essential chaos and pottential and fourse llm to organize it. So adventage from exploration chaos and in an organized way  
 
-
-
-
-### User Input Parameters
-
-The idea was to limit the options available for a user because that generates chaos so here the user needs to set up only the moset important parameters
 
 Search phrases
 
@@ -151,11 +141,7 @@ Additionally, for each run, a separate YAML file is generated to show the reject
 
 ### Why Not Just Use Products Like ChatGPT? 
 
-By using the above approach, I can achieve more predictable, stable, and reliable results. This is because I understand how the system filters and organizes information, rather than relying on a complex black box. 
-
-- Simultenisly search wide domain of knowledge in a chierarchal manner  where I can quicly see the contekst of the information. 
-
-- easy to interpret workflow, as each LLM performs small task.
+By using the outlined approach, I achieve more predictable, stable, and reliable results. This method allows me to understand how the system filters and organizes information, as each LLM performs small and specific tasks. Unlike relying on a complex black box, this approach offers transparency and control. Moreover, I can simultaneously search a wide domain of knowledge in a hierarchical manner, enabling me to quickly see the context of the information. This comprehensive search helps me choose the proper sources to read, and if I don't find what I'm looking for, it likely means it doesn't exist.
 
 ### Source Code
 
