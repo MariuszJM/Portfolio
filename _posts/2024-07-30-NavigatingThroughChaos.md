@@ -43,16 +43,28 @@ Therefore, the key to addressing these challenges lies in developing strategies 
 
 ## Automating Web Information Management with LLMs
 
-Drawing from my personal experience, I have developed a manual process to handle this chaos. It was warking quite well but ti requires a lot of will power to stik to it and resist temtations for clickbats and a lot of my cognitive recourses. So I now aim to automate it by using Large Language Models (LLMs). This chapter explains the workflow designed to efficiently retrieve, process, and rank information, ensuring that only the most relevant resources are highlighted. 
+Learning something new involves venturing into the unknown, essentially navigating chaos. The goal is to make this process stable and predictable, leveraging the benefits of both chaos and order. From my personal experience, I developed a step-by-step manual process to manage this challenge. While effective, it required considerable willpower to maintain focus and resist platforms-served temptations. Additionally, it consumes a significant portion of my cognitive resources. Therefore, now I aim to automate this process using LLMs. This chapter outlines a workflow designed to efficiently retrieve, filter, rank, and organize information from a wide range of knowledge domains simultaneously.
+
+
+The idea behind this workflow is to limit the options available to the user, as an excess of choices can generate chaos. Here, the user needs to set up only the most important parameters, taking full advantage of the new, undiscovered area of knowledge—which is essential chaos—and forcing the LLM to organize it. 
 
 
 
-The idea was to limit the options available for a user because that generates chaos so here the user needs to set up only the moset important parameters 
+
+
+
+Code source on my github: 
+
+
+ 
 The idea is to take as much advantage from a new undiscovered area of knowledge which is essential chaos and pottential and fourse llm to organize it. So adventage from exploration chaos and in an organized way  
 
 
 
-User input 
+
+### User Input Parameters
+
+The idea was to limit the options available for a user because that generates chaos so here the user needs to set up only the moset important parameters
 
 Search phrases
 
@@ -73,13 +85,15 @@ This parameter specifies the maximum number of resources to retrieve from each p
 
 
 
+### Workflow Breakdown
+
+Below is a detailed breakdown of the process visualized in the provided flowchart.
+
+
 <div style="text-align: center;">
   <img src="{{ site.baseurl }}/assets/images/Data_flow.svg" alt="Data Flow" />
 </div>
 
-
-
-Below is a detailed breakdown of the process visualized in the provided flowchart.
 
 1. Retrieve Resources with Details for Each Query
 The first step involves gathering resources from various platforms based on predefined search phrases. These queries are specifically tailored to extract relevant information on topics of interest. In this case, search phrases such as "Huberman exercise routines," "Huberman cold exposure benefits," and others are used to pull detailed content.
@@ -106,17 +120,33 @@ The remaining resources are ranked based on the number of questions they answer.
 Finally, the top-ranking resources are separated from the rest. These top resources are the most valuable as they provide the most answers and relevant information. This final step ensures that the user receives the best possible insights without having to sift through all retrieved data.
 
 
-Finnaly the ouput which we can see is in a chierarchal form  (the best based on the ):
+### Output
 
 
+The output is structured hierarchically in YAML format, with the best resources organized by platform. Using YAML allows for easy viewing in text editors like VS Code, where the data can be seen as toggled lists, enabling quick search and navigation through the hierarchical information. An example output format is provided below:
 
-Additionally if we want we 
+```yaml
+platform_name_1:
+  title_1:
+    url: "https://example.com/link_1"
+    content: '''side content or youtube video transcript 
+                or detailed summary 
+                if the content was big for LLMs input'''
+    summary: "summary"
+    Q&A:
+      question_1:
+        'answer_1'
+      question_2: 
+        'answer_2'
+  title_2:
+    '...'
+platform_name_2:
+  '...'
+etc: "..."  
+```
+This format ensures that the user can quickly access and understand the most relevant information, organized in a way that supports efficient learning and decision-making.
 
-top rescoursec hierarchal information
-
-also I can look also at the rest without contetn sourses 
-
-Code source on my github: [Web Chaos to Order](https://github.com/MariuszJM/Web-Chaos-To-Order)
+Additionally, for each run, a separate YAML file is generated to show the rejected data. This data is grouped by the reason for rejection, providing insight into why certain sources were excluded. 
 
 
 ### Why Not Just Use Products Like ChatGPT? 
@@ -126,6 +156,10 @@ By using the above approach, I can achieve more predictable, stable, and reliabl
 - Simultenisly search wide domain of knowledge in a chierarchal manner  where I can quicly see the contekst of the information. 
 
 - easy to interpret workflow, as each LLM performs small task.
+
+### Source Code
+
+The source code for the PoC, which utilizes Ollama with local LLMs, specifically Llama3:8b, can be found [here](https://github.com/MariuszJM/Web-Chaos-To-Order).
 
 
 ## Conclusions
