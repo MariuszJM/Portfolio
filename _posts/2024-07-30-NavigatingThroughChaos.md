@@ -81,7 +81,7 @@ Below is a detailed breakdown of the workflow, as visualized in the provided flo
 
 **Retrieve Resources for Each Query**
 
-Gather resources from the specified platform based on predefined search queries. For each query, up to 10 resources are retrieved.
+Gather resources from the specified platform based on predefined search queries, using the Time Horizon parameter to ensure that the resources are not outdated. For each search query, up to 10 resources are retrieved.
 
 **Combine Resources (Eliminate Duplicates)**
 
@@ -95,7 +95,7 @@ Filter out resources that lack substantial content, including video transcripts 
 
 Summarize the content of each resource, prioritizing details that are crucial for answering the predefined specific questions.
 
-**Add and Answer Specific Questions in Resources**
+**Add and Answer Specific Questions**
 
 Address specific questions within each resource based on its content. This integration ensures that the content directly addresses the user’s specific questions.
 
