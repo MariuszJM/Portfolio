@@ -5,7 +5,7 @@ author: sal
 categories: [AI, AI Server]
 image: assets/images/LocalLLMs.png
 comments: false
-featured: true
+featured: false
 ---
 
 In today's digital age, data security and autonomy are of utmost importance. Setting up a private AI system allows you to harness the power of artificial intelligence while maintaining control over your data. This guide will walk you through the process of setting up a private AI system compatible with both Linux and Windows 11 Home using WSL 2. We will focus on using Ollama and Open WebUI, two powerful tools that provide robust AI capabilities. Whether you are an AI enthusiast or a professional, this setup ensures that your data remains private and secure.

@@ -5,7 +5,7 @@ author: sal
 categories: [AI, PC Building, AI Server]
 image: assets/images/ai_server.jpg
 comments: false
-featured: true
+featured: false
 ---
 
 Creating a high-performance AI PC within a budget of 8000 to 12000 PLN requires a delicate balance of cost and performance. Therefore to make the process simpler, I decided to consider two setups: one that is budget-friendly yet powerful within the lower range of the budget, and another that pushes the performance limits while staying within the same budget constraints.
