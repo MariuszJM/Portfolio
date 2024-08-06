@@ -16,7 +16,7 @@ I'm Mariusz and I'm passionate about data, artificial intelligence, electronics,
 </p>
 
 <p>
-My articles are designed to spark discussions and foster growth—both for myself and for others. While they aim to enhance my understanding and argumentation skills, they are also intended as tools for personal development and discovery through engagement. These writings are subjective and invite mutual growth through shared insights.
+My articles aim to spark discussions and promote growth for both myself and others. They are tools for enhancing understanding and argumentation while fostering personal development through engagement.
 </p>
 
 <p>
