@@ -12,15 +12,11 @@ Hello there,
 </p>
 
 <p>
-I'm Mariusz. I'm passionate about data, artificial intelligence, electronics, and productivity. I consistently explore the world, and after structuring the data, I aim to act on its essence. The articles on this website are the results of that effort. 
+I'm Mariusz and I'm passionate about data, artificial intelligence, electronics, and productivity. I consistently explore the world, and after structuring the data, I aim to act on its essence. The articles on this website are the results of that effort. This website is a space where I share my personal thoughts, AI projects, and productivity tips.
 </p>
 
 <p>
-This website is a space where I share my personal thoughts, AI projects, and productivity tips.
-</p>
-
-<p>
-My articles are a starting point for discussions, aimed at enhancing my understanding and argumentation skills. These writings are subjective, serving as tools for personal growth and discovery through engagement with others.
+My articles are designed to spark discussions and foster growth—both for myself and for others. While they aim to enhance my understanding and argumentation skills, they are also intended as tools for personal development and discovery through engagement. These writings are subjective and invite mutual growth through shared insights.
 </p>
 
 <p>
