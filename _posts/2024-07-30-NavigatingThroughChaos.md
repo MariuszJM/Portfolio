@@ -148,12 +148,21 @@ By using the outlined approach, I achieve more predictable, stable, and reliable
 The source code for the PoC, which utilizes Ollama with local LLMs, specifically Llama3:8b, can be found [here](https://github.com/MariuszJM/Web-Chaos-To-Order).
 
 ## Example Use Cases
-- sam config run after same periods of time with the same period of time horizon to see what change in certein domain ?
+The automated workflow for web information management with LLMs can significantly enhance learning, decision-making, and information retrieval. Here are some key use cases:
 
-- thoosing the besto sours to finde t reliable sources to answer specific quseion 
-- make it easier to learn na a =n organize way step by step wrom geral to specific
+**Monitoring Changes in a Specific Domain**
 
+Set the system to run regular searches with the same Time Horizon to track changes over time. For example, monthly searches on "AI advancements in healthcare" using a past month Time Horizon help monitor new developments and trends consistently.
 
+**Identifying Reliable Sources for Specific Questions**
+
+The workflow ranks resources based on the number of specific questions they answer, helping users find the most reliable and comprehensive sources quickly.
+
+**Facilitating Structured Learning from General to Specific**
+
+Organize learning by summarizing and addressing specific questions within each resource, allowing users to progress from broad concepts to detailed information. The search can be very wide, covering a broad range of topics and then narrowing down to specific details.
+
+These use cases demonstrate the workflow’s ability to enhance information retrieval and learning efficiency.
 
 ## Conclusions
 
