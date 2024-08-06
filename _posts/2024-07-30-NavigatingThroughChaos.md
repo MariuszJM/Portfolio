@@ -168,11 +168,11 @@ These use cases demonstrate the workflow’s ability to enhance information retr
 
 This article addressed the issue of information overload in our digital world and proposed strategies to manage it.
 
-The rapid pace of digital transformation and addictive platforms like YouTube contribute significantly to information overload. Human cognitive limitations, such as short-term memory capacity and information processing speed, worsen this problem.
+Human cognitive limitations, such as short-term memory capacity and information processing speed, set the thresholds for how much information we can effectively handle. When these limits are exceeded, we experience information overload.
 
 Understanding the brain's constraints, including the need for hierarchical learning, is crucial for efficient knowledge acquisition. Effective strategies include setting clear learning goals, organizing information hierarchically, and using spaced repetition techniques.
 
-Digital platforms designed to maximize engagement and rapid technological growth create an overwhelming volume of information. Therefore, filtering, organizing, and prioritizing information is essential.
+The rapid pace of digital transformation and addictive platforms like YouTube make it easy to exceed these cognitive limits. Digital platforms designed to maximize engagement and rapid technological growth contribute to an overwhelming volume of information. This creates a challenging environment where information overload is a common experience.
 
 Large Language Models (LLMs) offer a promising solution by predictably and goal-orientedly filtering and organizing knowledge. The proposed workflow automates the retrieval, filtering, ranking, and organizing of information from various platforms, enhancing efficiency and reducing cognitive load.
 
