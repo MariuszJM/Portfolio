@@ -13,12 +13,12 @@ permalink: /contact/
     <div>
         <i class="fab fa-linkedin fa-3x"></i>
         <h3>LinkedIn</h3>
-        <p><a href="https://www.linkedin.com/in/mariusz-michna-6a2599193/" target="_blank">My LinkedIn Profile</a></p>
+        <p><a href="https://www.linkedin.com/in/mariusz-michna-6a2599193/" target="_blank">Mariusz Michna</a></p>
     </div>
     <div>
         <i class="fab fa-github fa-3x"></i>
         <h3>GitHub</h3>
-        <p><a href="https://github.com/MariuszJM" target="_blank">My GitHub Profile</a></p>
+        <p><a href="https://github.com/MariuszJM" target="_blank">Mariusz Michna</a></p>
     </div>
 </div>
 
