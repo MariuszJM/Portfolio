@@ -49,7 +49,7 @@ Learning something new involves venturing into the unknown, essentially navigati
 
 The goal of this workflow is to simplify the decision-making process for the user by limiting the available options, as an excess of choices can generate chaos. Therefore, the user only needs to set the most important parameters. Below is a list of key parameters that need to be configured for a search:
 
-**Search Phrases**
+**Search Queries**
 
 These are the queries that users typically write in Google or YouTube. This is a crucial parameter. To streamline the parameters, each phrase retrieves up to 10 resources. Users can broaden their exploration by defining multiple similar phrases in one run, each approaching the problem from slightly different angles.
 
@@ -67,47 +67,51 @@ Users can set a Time Horizon parameter to declare how old the resources can be. 
 
 **Max Outputs per Platform**
 
-To manage the volume of data, users can set a maximum number of resources to retrieve from each platform. This helps in focusing on the most relevant resources without being overwhelmed by too much information. Typically, this is set between 3 to 9
+To manage the volume of data, users can set a maximum number of resources to retrieve from each platform. This helps in focusing on the most relevant resources without being overwhelmed by too much information. Typically, this is set between 3 to 9.
 
 ### Workflow Breakdown
 
-Below is a detailed breakdown of the process visualized in the provided flowchart for one platform.
+Below is a detailed breakdown of the workflow, as visualized in the provided flowchart, detailing the steps involved for processing information on a single platform.
 
 
 <div style="text-align: center;">
-  <img src="{{ site.baseurl }}/assets/images/Data_flow.svg" alt="Data Flow" />
+  <img src="{{ site.baseurl }}/assets/images/Data_flow.svg" alt="Data Flow" style="margin-bottom: 30px;" />
 </div>
 
 
+**Retrieve Resources for Each Query**
 
+Gather resources from the specified platform based on predefined search queries. For each query, up to 10 resources are retrieved.
 
-1. Retrieve Resources with Details for Each Query
-The first step involves gathering resources from various platforms based on predefined search phrases. These queries are specifically tailored to extract relevant information on topics of interest. In this case, search phrases such as "Huberman exercise routines," "Huberman cold exposure benefits," and others are used to pull detailed content.
+**Combine Resources (Eliminate Duplicates)**
 
-2. Combine Resources (Eliminate Duplicates)
-Once the resources are retrieved, they are consolidated to remove any duplicates. This ensures that each piece of information is unique, streamlining the subsequent processing steps and avoiding redundancy.
+Consolidate the retrieved resources for each query to remove any duplicates. This ensures that each piece of information is unique, streamlining the subsequent processing steps and avoiding redundancy.
 
-3. Separate Resources with Content from Without
-The next step is to filter out resources that lack substantial content. This separation ensures that only those resources which contain meaningful information proceed to the next stages of processing.
+**Separate Resources with Content from Without**
 
-4. Add Summaries to Each Resource, Prioritizing Information Needed to Answer Specific Questions
-Each resource is then summarized, with a focus on extracting details that are crucial for answering the predefined specific questions. This step is critical for condensing large volumes of information into manageable summaries.
+Filter out resources that lack substantial content, including video transcripts or site content. Only resources with content available proceed to the next stage.
 
-5. Add and Answer Specific Questions in Summaries
-Following the summarization, specific questions are addressed within the summaries. This integration helps in directly linking the retrieved information to the user’s queries, providing concise and targeted answers.
+**Add Summaries to Each Resource, Prioritizing Information Needed to Answer Specific Questions**
 
-6. Separate Resources with Zero Answers
-Resources that do not contribute any answers to the specific questions are filtered out. This step further refines the pool of useful information, ensuring that only relevant data is retained.
+Summarize the content of each resource, prioritizing details that are crucial for answering the predefined specific questions.
 
-7. Rank Resources by Number of Answers Provided
-The remaining resources are ranked based on the number of questions they answer. This ranking helps in identifying the most comprehensive and informative sources, facilitating easier access to high-quality information.
+**Add and Answer Specific Questions in Resources**
 
-8. Separate Top Resources from the Rest
-Finally, the top-ranking resources are separated from the rest. These top resources are the most valuable as they provide the most answers and relevant information. This final step ensures that the user receives the best possible insights without having to sift through all retrieved data.
+Address specific questions within each resource based on its content. This integration ensures that the content directly addresses the user’s specific questions.
 
+**Separate Resources with Zero Answers**
+
+Filter out resources that do not contribute any answers to the specific questions. This step refines the pool of useful information, ensuring that only relevant data is retained.
+
+**Rank Resources by Number of Answers Provided**
+
+Rank the remaining resources based on the number of questions they answer. This ranking helps identify the most comprehensive and informative sources.
+
+**Separate Top Resources from the Rest**
+
+Finally, separate the top-ranking resources from the rest. These top resources are the most valuable, providing the most answers and relevant information.
 
 ### Output
-
 
 The output is structured hierarchically in YAML format, with the best resources organized by platform. Using YAML allows for easy viewing in text editors like VS Code, where the data can be seen as toggled lists, enabling quick search and navigation through the hierarchical information. An example output format is provided below:
 
@@ -142,6 +146,13 @@ By using the outlined approach, I achieve more predictable, stable, and reliable
 ### Source Code
 
 The source code for the PoC, which utilizes Ollama with local LLMs, specifically Llama3:8b, can be found [here](https://github.com/MariuszJM/Web-Chaos-To-Order).
+
+## Example Use Cases
+- sam config run after same periods of time with the same period of time horizon to see what change in certein domain ?
+
+- thoosing the besto sours to finde t reliable sources to answer specific quseion 
+- make it easier to learn na a =n organize way step by step wrom geral to specific
+
 
 
 ## Conclusions
