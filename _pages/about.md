@@ -12,7 +12,7 @@ Hello there,
 </p>
 
 <p>
-I'm Mariusz and I'm passionate about data, artificial intelligence, electronics, and productivity. I consistently explore the world, and after structuring the data, I aim to act on its essence. The articles on this website are the results of that effort. This website is a space where I share my personal thoughts, AI projects, and productivity tips.
+I'm Mariusz and I'm passionate about data, artificial intelligence, electronics, and productivity. I consistently explore the world, and after structuring the data, I aim to act on its essence. The articles on this website are the results of that effort. The website is a space where I share my personal thoughts, AI projects, and productivity tips.
 </p>
 
 <p>
