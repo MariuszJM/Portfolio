@@ -24,7 +24,11 @@ This website is a space where I share my personal thoughts, AI projects, and pro
 </p>
 
 <p>
-I consider my articles as starting points for discussions, using them to enhance my understanding and argumentation skills. These writings are subjective and may be incomplete, serving as tools for personal growth and discovery through engagement with others.
+I view my articles as starting points for discussions, aimed at enhancing my understanding and argumentation skills. These writings are subjective and may be incomplete, serving as tools for personal growth and discovery through engagement with others.
+</p>
+
+<p>
+I would love to hear your thoughts, especially if they differ from mine. Exploring unknown areas, especially where I might be wrong, offers the greatest potential for improvement.
 </p>
 
 <p>
